@@ -49,12 +49,12 @@ fi
 # number of cores to use for make
 CORES=`nproc`
 
-GSM_VERSION_38="995572b14fac0204329361509bf6ab1712af35c0" # latest release
+GSM_VERSION_38="54580d148d4c184483a5a398b8ca64545aadee4b" # latest release
 GSM_VERSION_37="fa184a9447a90aefde2ca0dea1347b702551015d" # latest release
 
 # get a know working version or commit
 if [ "$GRC_38" = true ]; then
-	GR_GSM_REPO="https://github.com/bkerler/gr-gsm"
+	GR_GSM_REPO="https://github.com/velichkov/gr-gsm"
 	GR_GSM_REF=$GSM_VERSION_38
 else
 	GR_GSM_REPO="https://github.com/osmocom/gr-gsm"
